@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	Fractal-Curve
+%define		pdir	Math
+%define		pnam	Fractal-Curve
 Summary:	Math::Fractal::Curve - generate fractal curves
 Summary(pl):	Math::Fractal::Curve - generowanie krzywych fraktalnych
 Name:		perl-Math-Fractal-Curve
