@@ -11,7 +11,7 @@ Name:		perl-Math-Fractal-Curve
 Version:	1.01
 Release:	1
 # same as perl
-License:	GPL or Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	afd6e735b32ad634d8958b6c2dd30b2d
