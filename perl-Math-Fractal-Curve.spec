@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Fractal-Curve
 Summary:	Math::Fractal::Curve - generate fractal curves
-Summary(pl):	Math::Fractal::Curve - generowanie krzywych fraktalnych
+Summary(pl.UTF-8):   Math::Fractal::Curve - generowanie krzywych fraktalnych
 Name:		perl-Math-Fractal-Curve
 Version:	1.01
 Release:	1
@@ -40,21 +40,21 @@ coordinate pairs specifying the first edge a distance is to be
 replaced with and Xn,Yn are the second edge. There may be any number
 of edges.
 
-%description -l pl
-Ten modu³ s³u¿y do generowania 2-wymiarowych krzywych fraktalnych
-takich jak krzywa von Kocha z prostszych funkcji generuj±cych.
+%description -l pl.UTF-8
+Ten moduÅ‚ sÅ‚uÅ¼y do generowania 2-wymiarowych krzywych fraktalnych
+takich jak krzywa von Kocha z prostszych funkcji generujÄ…cych.
 
-Fraktale s± generowane przez rekurencyjne zastêpowanie odcinka
-generatorem. W ten sposób pocz±tkowy odcinek i generator definiuj±
-tak± krzyw± fraktaln±. Generatory opisuj±, czym zostanie zast±piony
-dany odcinek w zale¿no¶ci od d³ugo¶ci odcinka. Na przyk³ad generator
-([0, 0, 1/3, 0], [2/3, 0, 1, 0]) opisuje zbiór Kantora (ze ¶rodkow±
-trzeci± czê¶ci±) i oznacza, ¿e ¶rodkowa trzecia czê¶æ ka¿dego
-odcinka ze zbioru jest usuwana. Sk³adnia struktur danych generatora
-w kontek¶cie tego modu³u to [[x1, y1, x2, y2], [X1, Y1, X2, Y2]]
-(referencja do tablicy referencji do wspó³rzêdnych koñca), gdzie
-xn,yn to pary wspó³rzêdnych okre¶laj±cych pierwszy koniec odcinka do
-zast±pienia, a Xn,Yn to drugi koniec. Mo¿e byæ dowolna liczba koñców.
+Fraktale sÄ… generowane przez rekurencyjne zastÄ™powanie odcinka
+generatorem. W ten sposÃ³b poczÄ…tkowy odcinek i generator definiujÄ…
+takÄ… krzywÄ… fraktalnÄ…. Generatory opisujÄ…, czym zostanie zastÄ…piony
+dany odcinek w zaleÅ¼noÅ›ci od dÅ‚ugoÅ›ci odcinka. Na przykÅ‚ad generator
+([0, 0, 1/3, 0], [2/3, 0, 1, 0]) opisuje zbiÃ³r Kantora (ze Å›rodkowÄ…
+trzeciÄ… czÄ™Å›ciÄ…) i oznacza, Å¼e Å›rodkowa trzecia czÄ™Å›Ä‡ kaÅ¼dego
+odcinka ze zbioru jest usuwana. SkÅ‚adnia struktur danych generatora
+w kontekÅ›cie tego moduÅ‚u to [[x1, y1, x2, y2], [X1, Y1, X2, Y2]]
+(referencja do tablicy referencji do wspÃ³Å‚rzÄ™dnych koÅ„ca), gdzie
+xn,yn to pary wspÃ³Å‚rzÄ™dnych okreÅ›lajÄ…cych pierwszy koniec odcinka do
+zastÄ…pienia, a Xn,Yn to drugi koniec. MoÅ¼e byÄ‡ dowolna liczba koÅ„cÃ³w.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
