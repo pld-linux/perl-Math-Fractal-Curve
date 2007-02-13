@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Fractal-Curve
 Summary:	Math::Fractal::Curve - generate fractal curves
-Summary(pl.UTF-8):   Math::Fractal::Curve - generowanie krzywych fraktalnych
+Summary(pl.UTF-8):	Math::Fractal::Curve - generowanie krzywych fraktalnych
 Name:		perl-Math-Fractal-Curve
 Version:	1.01
 Release:	1
