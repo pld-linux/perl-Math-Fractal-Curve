@@ -13,8 +13,9 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Math/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	083a95b926fc0c8fd156300df11ef3e5
+URL:		http://search.cpan.org/dist/Math-Fractal-Curve/
 %if %{with tests}
 BuildRequires:	perl(Test::More)
 %endif
