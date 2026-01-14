@@ -8,7 +8,7 @@ Summary:	Math::Fractal::Curve - generate fractal curves
 Summary(pl.UTF-8):	Math::Fractal::Curve - generowanie krzywych fraktalnych
 Name:		perl-Math-Fractal-Curve
 Version:	1.03
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
